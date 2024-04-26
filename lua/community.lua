@@ -5,6 +5,20 @@
 ---@type LazySpec
 return {
     "AstroNvim/astrocommunity",
+
+    { import = "astrocommunity.pack.rust" },
+
+    { import = "astrocommunity.pack.toml" },
+    { import = "astrocommunity.pack.yaml" },
+    { import = "astrocommunity.pack.markdown" },
+    { import = "astrocommunity.markdown-and-latex.vimtex" },
+
+    { import = "astrocommunity.pack.python" },
+    { import = "astrocommunity.pack.bash" },
     { import = "astrocommunity.pack.lua" },
-    -- import/override with your plugins folder
+    { import = "astrocommunity.pack.just" },
+    { import = "astrocommunity.pack.typescript-all-in-one" },
+
+    { import = "astrocommunity.diagnostics.trouble-nvim" },
+    { import = "astrocommunity.motion.leap-nvim" },
 }

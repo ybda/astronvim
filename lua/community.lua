@@ -22,4 +22,5 @@ return {
     { import = "astrocommunity.diagnostics.trouble-nvim" },
     { import = "astrocommunity.editing-support.undotree" },
     { import = "astrocommunity.motion.leap-nvim" },
+    { import = "astrocommunity.motion.mini-ai" },
 }

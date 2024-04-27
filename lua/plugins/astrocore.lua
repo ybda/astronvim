@@ -71,6 +71,9 @@ return {
                 ["<Leader>b"] = { desc = "Buffers" },
                 -- quick save
                 -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+
+                -- cd into the working directory of the currently active buffer
+                ["<Leader>bw"] = ":cd %:p:h<CR>",
             },
             t = {
                 -- setting a mapping to false will disable it

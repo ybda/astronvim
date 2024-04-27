@@ -1,8 +1,10 @@
 ---@type LazySpec
 return {
     "AstroNvim/astrotheme",
+    ---@type AstroThemeOpts
     opts = {
         palettes = {
+            ---@type AstroThemePalette
             astrodark = { -- Extend or modify astrodarks palette colors
                 ui = {
                     base = "#090909",

@@ -74,6 +74,8 @@ return {
 
                 -- cd into the working directory of the currently active buffer
                 ["<Leader>bw"] = ":cd %:p:h<CR>",
+
+                ["<C-x>"] = '"+',
             },
             t = {
                 -- setting a mapping to false will disable it
@@ -83,6 +85,8 @@ return {
                 -- move lines (by ThePrimeagen)
                 ["J"] = ":m '>+1<CR>gv=gv",
                 ["K"] = ":m '<-2<CR>gv=gv",
+
+                ["<C-x>"] = '"+',
             },
             x = {
                 -- paste in selection without loosing your stuff in clipboard (by ThePrimeagen)
